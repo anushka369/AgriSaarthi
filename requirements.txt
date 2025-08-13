@@ -1,0 +1,13 @@
+fastapi==0.95.2
+uvicorn[standard]==0.22.0
+langchain==0.0.450
+openai==1.0.0
+qdrant-client==1.9.0
+python-multipart==0.0.6
+requests==2.31.0
+tqdm==4.66.1
+pydantic==1.10.12
+aiohttp==3.9.4
+whisper-openai==0.1.0  # if using OpenAI speech-to-text SDK
+# if using local whisper:
+# openai-whisper==20231018
